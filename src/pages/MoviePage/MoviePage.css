@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vw;
+    background-color: #282828;
+    padding: 2em;
+    border-radius: 10px;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #EFEFEF;
+  }
+  
+  .item-card {
+    background-color: #282828;
+    border: 0.5px solid #A9A9A9;
+    text-align: center;
+    height: 30vh;
+    width: 30vw;
+    border-radius: 5vmin;
+  }
+  
+  .item-card:hover {
+    transform: scale(1.10);
+    border-color: #5e43f3;
+  }
+  
+  .title {
+    margin: 1vw;
+    color: #A9A9A9;
+  }
+  
+  .movie-link {
+    text-decoration: none;
+    color: #A9A9A9;
+  }
+  
+  .movie-link:hover {
+    color: #5e43f3;
+  }
+  
+  

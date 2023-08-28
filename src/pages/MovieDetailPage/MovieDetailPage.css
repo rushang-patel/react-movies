@@ -1,0 +1,44 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    background-color: #282828;
+  }
+  
+  .flex div {
+    margin: 0 1%;
+    text-align: left;
+    background-color: #282828;
+    color: #A9A9A9;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: #282828;
+    color: #5e43f3;
+  }
+  
+  h4 {
+    color: #A9A9A9;
+  }
+  
+  h3 {
+    color: #A9A9A9;
+  }
+  
+  ul {
+    color: #A9A9A9;
+  }
+  
+  img {
+    border-radius: 5vmin;
+    border: 1px solid #5e43f3;
+    margin-left: 1%;
+  }
+  
